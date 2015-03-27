@@ -95,3 +95,93 @@ If you want to add ripple effect for your custom view.
         return  mRippleManager.onTouchEvent(event) || result;
     }
     ```
+
+
+FloatingActionButton
+=====================
+
+
+![](https://github.com/rey5137/Material/blob/master/image/fab_image.gif)
+![](https://github.com/rey5137/Material/blob/master/image/fab_line.gif)
+
+Attributes
+------------
+
+* `fab_backgroundColor` - The background color of this view.
+
+* `fab_radius` - The radius of this view.
+
+* `fab_elevation` - The elevation of this view.
+
+* `fab_iconSize` - The size of icon drawable.
+
+* `fab_iconSrc` - The drawable used as icon.
+
+* `fab_iconLineMorphing` - The style of LineMorphingDrawable will be used as icon.
+
+* `fab_interpolator` - The interpolator of animation when switch icon drawable.
+
+* `fab_animDuration` - The duration of animation when switch icon drawable.
+
+LineMorphingDrawable 
+--------------------
+LineMorphingDrawable is a Drawable class that draw a series of line segments and can animate them between 2 states.
+
+##Attributes
+* `lmd_state` - The reference to XML resource defines states of this Drawable.
+
+* `lmd_curState` - The current state of this Drawable.
+
+* `lmd_padding` - The padding of this Drawable.
+
+* `lmd_paddingLeft` - The left padding of this Drawable.
+
+* `lmd_paddingTop` - The top padding of this Drawable.
+
+* `lmd_paddingRight` - The right padding of this Drawable.
+
+* `lmd_paddingBottom` - The bottom padding of this Drawable.
+
+* `lmd_animDuration` - The duration of animation when it switches state.
+
+* `lmd_interpolator` - The interpolator of animation when it switches state.
+
+* `lmd_strokeSize` - The size of stroke.
+
+* `lmd_strokeColor` - The color of stroke.
+
+* `lmd_strokeCap` - The cap setting of stroke.
+
+* `lmd_strokeJoin` - The join setting of stroke.
+
+* `lmd_clockwise` - If true, the animation will rotate clockwise when switch from lower state to higher state.
+
+##State XML
+  To define states for LineMorphingDrawable, you need to create a XML file with format:
+
+```xml
+<state-list>
+    
+    <state>			    <!-- the first state !-->
+        <points>                    <!-- all value are fraction !-->
+        	<item>0.5</item>    <!-- the x value of start point of first line segment !-->
+        	<item>0</item>      <!-- the y value of start point of first line segment !-->
+        	<item>0.5</item>    <!-- the x value of end point of first line segment !-->
+        	<item>1</item>      <!-- the y value of end point of first line segment !-->
+        	
+        	<item>0</item>      <!-- the x value of start point of second line segment !-->
+        	<item>0.5</item>    <!-- the y value of start point of second line segment !-->
+        	<item>1</item>      <!-- the x value of end point of second line segment !-->
+        	<item>0.5</item>    <!-- the y value of end point of second line segment !-->
+            ...
+        </points>     
+
+        <links>               <!-- Each pair of values define the index of 2 line segment that are linked !-->
+        	<item>0</item> 	
+        	<item>1</item>
+        </links>    
+  
+    </state>
+    
+</state-list>
+```
