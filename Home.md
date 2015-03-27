@@ -44,8 +44,12 @@ MaterialLibrary is an Open Source Android library that back-port Material Design
     ![](https://github.com/rey5137/Material/blob/master/image/textfield.gif)
 
 - Snackbars
+     
+    ![](https://github.com/rey5137/Material/blob/master/image/snackbar.png)
 
 - Dialogs
+
+    ![](https://github.com/rey5137/Material/blob/master/image/dialog_3.png) ![](https://github.com/rey5137/Material/blob/master/image/dialog_4.png)
 
 ## Demo
 
@@ -56,12 +60,34 @@ MaterialLibrary is an Open Source Android library that back-port Material Design
 
 ## Getting Started
 
+Add Gradle dependency:
+
+```gradle
+dependencies {
+   compile 'com.github.rey5137:material:1.0.0'
+}
+```
+
+* Or
+[Download from Maven](https://oss.sonatype.org/content/repositories/releases/com/github/rey5137/material/1.0.0/material-1.0.0.aar)
+
+AppCompat and CardView library is required by Material library.
+
+```gradle
+dependencies {
+   compile 'com.android.support:appcompat-v7:21.0.2'
+   compile 'com.android.support:cardview-v7:21.0.3'
+}
+```
+Now you can use any widget in **com.rey.material.widget** package as you wish. For styling, please view component's details pages.
+
 ## Donation
 You can support the project and thank the author for his hard work.
 
 <a href='https://pledgie.com/campaigns/28714'><img alt='Click here to lend your support to: Support Material Library project. and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/28714.png?skin_name=chrome' border='0' ></a>
 
-* **PayPal** - pea5137@gmail.com
+**PayPal**
+- [Donate] (https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=pea5137%40gmail%2ecom&lc=US&item_name=Rey%20Pham&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
 
 Developed By
 ------------
