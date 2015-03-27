@@ -23,6 +23,8 @@ CircularProgressDrawable
 --------------------------
   CircularProgressDrawable has support only 2 modes: **INDETERMINATE** and **DETERMINATE**.
 
+![](https://github.com/rey5137/Material/blob/master/image/progress_circular_indeterminate.gif)  ![](https://github.com/rey5137/Material/blob/master/image/progress_circular_determinate.gif)
+
 ##Attributes
 
 * `cpd_padding` - The padding of progress with the boundary. The size of progress = min(width, height) - padding * 2.
@@ -43,6 +45,57 @@ CircularProgressDrawable
 
 * `cpd_reverse` - If true, progress will rotate counter-clockwise.
 
-* `cpd_rotateDuration` - The duration 
+* `cpd_rotateDuration` - The time it take to rotate a cycle.
+
+* `cpd_transformDuration` - the time it take to animate the sweep angle from minSweepAngle to maxSweepAngle.
+
+* `cpd_keepDuration` - the time it keep the sweep angle at minSweepAngle and maxSweepAngle.
+
+* `cpd_transformInterpolator` - The interpolator of transform animation.
+
+* `cpd_inAnimDuration` - the duration of animation when progress start running.
+
+* `cpd_outAnimDuration` - the duration of animation when progress stop running.
+
+* `cpd_inStepColors` - the list of colors show in start animation.
+
+* `cpd_inStepPercent` - the percent each step color will take.
 
 
+LinearProgressDrawable
+--------------------------
+
+![](https://github.com/rey5137/Material/blob/master/image/progress_linear_indeterminate.gif)  
+![](https://github.com/rey5137/Material/blob/master/image/progress_linear_determinate.gif)
+![](https://github.com/rey5137/Material/blob/master/image/progress_linear_query.gif)
+![](https://github.com/rey5137/Material/blob/master/image/progress_linear_buffer.gif)
+
+##Attributes
+
+* `lpd_maxLineWidth` - The maximum width of progress (can be dimension or fraction).
+
+* `lpd_minLineWidth` - The minimum width of progress (can be dimension or fraction).
+
+* `lpd_strokeSize` - The stroke's size of progress.
+
+* `lpd_strokeColor` - The stroke's color of progress.
+
+* `lpd_strokeSecondaryColor` - The stroke's color of secondary progress.
+
+* `lpd_strokeColors` - The list of stroke's color (for **INDETERMINATE** mode).
+
+* `lpd_reverse` - If true, progress will run from right to left.
+
+* `lpd_travelDuration` - The time it take to run.
+
+* `lpd_transformDuration` - the time it take to animate the progress's width from minLineWidth to maxLineWidth.
+
+* `lpd_keepDuration` - the time it keep the progress's width at minLineWidth and maxLineWidth.
+
+* `lpd_transformInterpolator` - The interpolator of transform animation.
+
+* `lpd_inAnimDuration` - the duration of animation when progress start running.
+
+* `lpd_outAnimDuration` - the duration of animation when progress stop running.
+
+* `lpd_verticalAlign` - the vertical align of progress with boundary (can be **top**, **center **or **bottom**).
