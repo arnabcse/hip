@@ -154,7 +154,7 @@ LineMorphingDrawable is a Drawable class that draw a series of line segments and
 
 * `lmd_strokeJoin` - The join setting of stroke.
 
-* `lmd_clockwise` - If true, the animation will rotate clockwise when switch from lower state to higher state.
+* `lmd_clockwise` - If true, the animation will rotate clockwise when switch state.
 
 ##State XML
   To define states for LineMorphingDrawable, you need to create a XML file with format:
