@@ -8,7 +8,7 @@ MaterialLibrary is an Open Source Android library that back-port Material Design
 * [Donation](#donation)
 
 ##Features
-- Progress
+- [Progress](Progress)
     - Circular
     
         ![](https://github.com/rey5137/Material/blob/master/image/progress_circular_indeterminate.gif) ![](https://github.com/rey5137/Material/blob/master/image/progress_circular_determinate.gif)
