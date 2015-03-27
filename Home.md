@@ -5,6 +5,7 @@ MaterialLibrary is an Open Source Android library that back-port Material Design
 * [Features](#features)
 * [Demo](#demo)
 * [Getting Started](#getting-started)
+* [Donation](#donation)
 
 ##Features
 - Progress
@@ -54,6 +55,13 @@ MaterialLibrary is an Open Source Android library that back-port Material Design
 </a>
 
 ## Getting Started
+
+## Donation
+You can support the project and thank the author for his hard work.
+
+<a href='https://pledgie.com/campaigns/28714'><img alt='Click here to lend your support to: Support Material Library project. and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/28714.png?skin_name=chrome' border='0' ></a>
+
+* **PayPal** - pea5137@gmail.com
 
 Developed By
 ------------
