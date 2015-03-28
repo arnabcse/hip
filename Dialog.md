@@ -87,3 +87,54 @@ Attributes
 * `di_cancelable` - Indicate that dialog is cancelable.
 
 * `di_canceledOnTouchOutside` - Indicate that dialog will be canceled when touch outside.
+
+
+SimpleDialog
+------------
+
+  `com.rey.material.app.SimpleDialog` is a dialog extends from `com.rey.material.app.Dialog` and provide some commond views as message, choices, multi-choices.
+
+
+##Attributes
+
+* `di_messageTextAppearance` - The appearance setting of message text.
+
+* `di_messageTextColor` - The color of message text.
+
+* `di_radioButtonStyle` - The style of RadioButtonDrawable will be used.
+
+* `di_checkBoxStyle` - The style of CheckBoxDrawable will be used.
+
+* `di_itemHeight` - The height of item.
+
+* `di_itemTextAppearance` - The appearance setting of item's text.
+
+
+DialogFragment
+--------------
+  If you want to use `com.rey.material.app.Dialog` as DialogFragment, you can use `com.rey.material.app.DialogFragment` class.
+
+  To create `com.rey.material.app.DialogFragment` object, just call static method:
+
+```java
+    public static DialogFragment newInstance(DialogFragment.Builder builder);
+```
+  
+  `DialogFragment.Builder` is an interface that will build Dialog when needed and pass the click event on action button.
+
+```java
+    public interface Builder{
+        public com.rey.material.app.Dialog build(Context context);
+
+        public void onPositiveActionClicked(DialogFragment fragment);
+
+        public void onNegativeActionClicked(DialogFragment fragment);
+
+        public void onNeutralActionClicked(DialogFragment fragment);
+    }
+```
+
+  You don't need to write you own `Builder` class, `Dialog` and `SimpleDialog` already have static class `Dialog.Builder` and `SimpleDialog.Builder` for you to use.
+
+  If you have to write you own `Builder` class, you should extends from `Dialog.Builder` class and override `onBuild` , `onReadFromParcel()` or `onWriteToParcel()` methods.
+ 
