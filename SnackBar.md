@@ -29,8 +29,8 @@ You can chain another methods to style SnackBar:
         .singleLine(true)
         .actionText("CLOSE")
         .actionClickListener(new SnackBar.OnActionClickListener(){...})
-        .duration(1000);
-
+        .duration(1000)
+        ...
 ```
 
 After apply style to SnackBar, you can show it by call one of following functions:
