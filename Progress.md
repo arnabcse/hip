@@ -41,7 +41,7 @@ CircularProgressDrawable
 
 * `cpd_strokeSecondaryColor` - The stroke's color of secondary progress.
 
-* `cpd_strokeColors` - The list of stroke's color (for **INDETERMINATE** mode).
+* `cpd_strokeColors` - The array of colors will be used as stroke's color (for **INDETERMINATE** mode).
 
 * `cpd_reverse` - If true, progress will rotate counter-clockwise.
 
@@ -57,7 +57,7 @@ CircularProgressDrawable
 
 * `cpd_outAnimDuration` - the duration of animation when progress stop running.
 
-* `cpd_inStepColors` - the list of colors show in start animation.
+* `cpd_inStepColors` - The array of colors will be shown in start animation.
 
 * `cpd_inStepPercent` - the percent each step color will take.
 
