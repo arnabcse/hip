@@ -3,7 +3,7 @@ EditText
 
   `com.rey.material.widget.EditText`is a custom view that wrapped a `android.widget.EditText` and provide many features like Material Design style, floating label, char counter, ...
 
-![](https://github.com/rey5137/Material/blob/master/image/textfield.gif)
+![](https://github.com/rey5137/Material/raw/master/image/textfield.gif)
 
 
 Attributes
