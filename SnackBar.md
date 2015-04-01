@@ -1,6 +1,6 @@
 SnackBar
 =====================
-![](https://github.com/rey5137/Material/blob/master/image/snackbar.png)
+![](https://github.com/rey5137/Material/raw/master/image/snackbar.png)
 
 Usage
 ------------
@@ -77,6 +77,8 @@ Attributes
 
 * `sb_textAppearance` - The appearance setting of message text.
 
+* `sb_text` - The message text.
+
 * `sb_singleLine` - Indicate that message text should be show as single-line or not.
 
 * `sb_maxLines` - The maximum lines of message text.
@@ -91,7 +93,11 @@ Attributes
 
 * `sb_actionTextAppearance` - The appearance setting of action text.
 
+* `sb_actionText` - The action text. Empty text mean hide action button.
+
 * `sb_actionRipple` - The ripple style for action button.
+
+* `sb_duration` - The duration the SnackBar will be shown.
 
 * `sb_inAnimation` - The animation when SnackBar is shown.
 
