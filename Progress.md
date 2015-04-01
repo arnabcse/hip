@@ -23,7 +23,7 @@ CircularProgressDrawable
 --------------------------
   CircularProgressDrawable has support only 2 modes: **INDETERMINATE** and **DETERMINATE**.
 
-![](https://github.com/rey5137/Material/blob/master/image/progress_circular_indeterminate.gif)  ![](https://github.com/rey5137/Material/blob/master/image/progress_circular_determinate.gif)
+![](https://github.com/rey5137/Material/raw/master/image/progress_circular_indeterminate.gif)  ![](https://github.com/rey5137/Material/raw/master/image/progress_circular_determinate.gif)
 
 ##Attributes
 
@@ -65,10 +65,10 @@ CircularProgressDrawable
 LinearProgressDrawable
 --------------------------
 
-![](https://github.com/rey5137/Material/blob/master/image/progress_linear_indeterminate.gif)  
-![](https://github.com/rey5137/Material/blob/master/image/progress_linear_determinate.gif)
-![](https://github.com/rey5137/Material/blob/master/image/progress_linear_query.gif)
-![](https://github.com/rey5137/Material/blob/master/image/progress_linear_buffer.gif)
+![](https://github.com/rey5137/Material/raw/master/image/progress_linear_indeterminate.gif)  
+![](https://github.com/rey5137/Material/raw/master/image/progress_linear_determinate.gif)
+![](https://github.com/rey5137/Material/raw/master/image/progress_linear_query.gif)
+![](https://github.com/rey5137/Material/raw/master/image/progress_linear_buffer.gif)
 
 ##Attributes
 
