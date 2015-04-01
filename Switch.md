@@ -2,7 +2,7 @@ CheckBox
 =====================
   `com.rey.material.widget.CheckBox`
 
-![](https://github.com/rey5137/Material/blob/master/image/cb.gif)  
+![](https://github.com/rey5137/Material/raw/master/image/cb.gif)  
 
 
 Attributes
@@ -28,7 +28,7 @@ RadioButton
 =====================
   `com.rey.material.widget.RadioButton`
 
-![](https://github.com/rey5137/Material/blob/master/image/rb.gif)  
+![](https://github.com/rey5137/Material/raw/master/image/rb.gif)  
 
 
 Attributes
@@ -52,7 +52,7 @@ Switch
 =====================
   `com.rey.material.widget.Switch`
 
-![](https://github.com/rey5137/Material/blob/master/image/switch.gif)  
+![](https://github.com/rey5137/Material/raw/master/image/switch.gif)  
 
 
 Attributes
