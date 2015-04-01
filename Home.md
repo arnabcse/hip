@@ -1,5 +1,8 @@
 Material
 =====================
+
+![](https://img.shields.io/maven-central/v/com.github.rey5137/material.svg)
+
 MaterialLibrary is an Open Source Android library that back-port Material Design components to pre-Lolipop Android. MaterialLibrary's original author is [Rey Pham](https://github.com/rey5137).
 
 * [Features](#features)
