@@ -3,8 +3,8 @@ Button
 
   `com.rey.material.widget.Button`is a custom view that extends from `android.widget.Button` and added support for ripple effect.
 
-![](https://github.com/rey5137/Material/blob/master/image/button_raise_touch.gif)
-![](https://github.com/rey5137/Material/blob/master/image/button_raise_wave.gif)
+![](https://github.com/rey5137/Material/raw/master/image/button_raise_touch.gif)
+![](https://github.com/rey5137/Material/raw/master/image/button_raise_wave.gif)
 
 Attributes
 ------------
@@ -101,8 +101,8 @@ FloatingActionButton
 =====================
 
 
-![](https://github.com/rey5137/Material/blob/master/image/fab_image.gif)
-![](https://github.com/rey5137/Material/blob/master/image/fab_line.gif)
+![](https://github.com/rey5137/Material/raw/master/image/fab_image.gif)
+![](https://github.com/rey5137/Material/raw/master/image/fab_line.gif)
 
 Attributes
 ------------
