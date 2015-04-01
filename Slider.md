@@ -3,8 +3,8 @@ Slider
 
   `com.rey.material.widget.Silder`  
 
-![](https://github.com/rey5137/Material/blob/master/image/slider_continuous.gif)
-![](https://github.com/rey5137/Material/blob/master/image/slider_discrete.gif)
+![](https://github.com/rey5137/Material/raw/master/image/slider_continuous.gif)
+![](https://github.com/rey5137/Material/raw/master/image/slider_discrete.gif)
    
 
 Attributes
