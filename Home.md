@@ -90,7 +90,7 @@ dependencies {
    compile 'com.android.support:cardview-v7:21.0.3'
 }
 ```
-Now you can use any widget in **com.rey.material.widget** package as you wish. For styling, please view component's details pages.
+Now you can use any widget in **com.rey.material.widget** package as you wish. For styling, please view [Wiki](https://github.com/rey5137/Material/wiki).
 
 ## Donation
 You can support the project and thank the author for his hard work.
