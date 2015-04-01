@@ -3,8 +3,8 @@ Dialog
 
   `com.rey.material.app.Dialog` is a custom dialog that apply Material Design specification.
 
-![](https://github.com/rey5137/Material/blob/master/image/dialog_1.png)
-![](https://github.com/rey5137/Material/blob/master/image/dialog_2.png)
+![](https://github.com/rey5137/Material/raw/master/image/dialog_1.png)
+![](https://github.com/rey5137/Material/raw/master/image/dialog_2.png)
 
 
 Usage
