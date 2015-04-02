@@ -23,7 +23,7 @@ RippleDrawable
 
 * `rd_rippleType` - The type of ripple. There are 2 types: **TOUCH** and **WAVE**.
 
-* `rd_background` - The background drawable for the view (needed if you want to use 9-patch drawable as button's background). The ripple effect will be draw over this drawable.
+* `rd_background` - The background of view. Use this attribute instead of `android:background` attribute because view will create a RippleDrawable object and set it as background, discard the value of `android:background` attribute.
 
 * `rd_backgroundColor` - The background color of ripple's layer (used in **TOUCH** ripple tyle).
 
