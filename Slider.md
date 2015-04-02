@@ -1,7 +1,7 @@
 Slider
 =====================
 
-  `com.rey.material.widget.Silder`  
+  `com.rey.material.widget.Slider`  
 
 ![](https://github.com/rey5137/Material/raw/master/image/slider_continuous.gif)
 ![](https://github.com/rey5137/Material/raw/master/image/slider_discrete.gif)
