@@ -88,6 +88,10 @@ Attributes
 
 * `di_canceledOnTouchOutside` - Indicate that dialog will be canceled when touch outside.
 
+* `di_inAnimation` - The animation used when showing dialog.
+
+* `di_outAnimation` - The animation used when hiding dialog.
+
 
 SimpleDialog
 ------------
