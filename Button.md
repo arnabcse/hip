@@ -6,30 +6,60 @@ Button
 ![](https://github.com/rey5137/Material/raw/master/image/button_raise_touch.gif)
 ![](https://github.com/rey5137/Material/raw/master/image/button_raise_wave.gif)
 
-Attributes
+Usage
 ------------
+  Declare in XML:
 
-* `ripple` - The style of RippleDrawable will be used as this view's background.
+```xml
+    <com.rey.material.widget.Button
+        style="@style/YourRippleDrawableStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON"
+        app:rd_enable="true"/>
+```
 
-* `delayClick` - If true, the view will wait for RippleDrawable finish animation before firing OnClickEvent.
+  `rd_enable` attribute have to be set to true to indicate that the view should look for RippleDrawable's attributes. If not, it'll simply ignore those attributes. Material Library already has some default RippleDrawable style you can use:
+
+* `Material.Drawable.Ripple.Touch`.
+
+* `Material.Drawable.Ripple.Touch.Light`.
+
+* `Material.Drawable.Ripple.Touch.MatchView`.
+
+* `Material.Drawable.Ripple.Touch.MatchView.Light`.
+
+* `Material.Drawable.Ripple.Wave`.
+
+* `Material.Drawable.Ripple.Wave.Light`.
 
 
-RippleDrawable
+  In case you want to use `style` for your own style, not for RippleDrawable , then you can pass RippleDrawable style for `rd_style` attribute:
+
+```xml
+    <com.rey.material.widget.Button
+        style="@style/YourOwnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON"
+        app:rd_style="@style/YourRippleDrawableStyle"/>
+```
+  
+  Note that in this case, the view'll load the style from `rd_style` attribute and ignore all RippleDrawable atrributes you may set before.
+
+
+Attributes
 --------------------------
-  RippleDrawable is a Drawable that provide ripple effect.
-
-
-##Attributes
 
 * `rd_rippleType` - The type of ripple. There are 2 types: **TOUCH** and **WAVE**.
 
-* `rd_background` - The background of view. Use this attribute instead of `android:background` attribute because view will create a RippleDrawable object and set it as background, discard the value of `android:background` attribute.
+* `rd_delayClick` - If true, the view will wait for RippleDrawable finish animation before firing OnClickEvent.
 
 * `rd_backgroundColor` - The background color of ripple's layer (used in **TOUCH** ripple tyle).
 
 * `rd_backgroundAnimDuration` - The animation's duration of background color.
 
-* `rd_maxRippleRadius` - The maximum ripple radius (used in **TOUCH** ripple tyle). It can be dimension value or _full_ enum(ripple effect will cover all view).
+* `rd_maxRippleRadius` - The maximum ripple radius (used in **TOUCH** ripple tyle). It can be dimension value or `match_view` enum(ripple effect will cover all view).
 
 * `rd_rippleColor` - The color of ripple.
 
@@ -76,9 +106,18 @@ If you want to add ripple effect for your custom view.
     ```java
     mRippleManager.onCreate(this, context, attrs, defStyleAttr, defStyleRes);
     ```
-3. Override setOnClickEvent() and onTouchEvent().
+3. Override setBackgroundDrawable(), setOnClickEvent() and onTouchEvent().
 
     ```java
+    @Override
+    public void setBackgroundDrawable(Drawable drawable) {
+        Drawable background = getBackground();
+        if(background instanceof RippleDrawable && !(drawable instanceof RippleDrawable))
+            ((RippleDrawable) background).setBackgroundDrawable(drawable);
+        else
+            super.setBackgroundDrawable(drawable);
+    }
+    
     @Override
     public void setOnClickListener(OnClickListener l) {
         if(l == mRippleManager)
@@ -122,6 +161,7 @@ Attributes
 * `fab_interpolator` - The interpolator of animation when switch icon drawable.
 
 * `fab_animDuration` - The duration of animation when switch icon drawable.
+
 
 LineMorphingDrawable 
 --------------------
