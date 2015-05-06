@@ -91,7 +91,7 @@ Attributes
 
 * `rd_bottomPadding` - The bottom padding of mask.
 
-Ripple Efftect for Custom View
+Ripple Effect for Custom View
 -------------------------------
 
 If you want to add ripple effect for your custom view.
