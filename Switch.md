@@ -62,7 +62,7 @@ Attributes
 
 * `sw_trackColor` - The color of track bar.
 
-* `sw_trackCap` - The cap setting of track bar.
+* `sw_trackCap` - The cap setting of track bar. There're 3 types: **BUTT**, **ROUND** and **SQUARE**.
 
 * `sw_thumbColor` - The color of thumb.
 
