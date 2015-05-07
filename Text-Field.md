@@ -55,7 +55,7 @@ Attributes
 
 * `et_supportEllipsize` - The ellipsize setting of the support text.
 
-* `et_dividerColor` - The color of divider.
+* `et_dividerColor` - The color of divider. Accept Color value or ColorStateList resource.
 
 * `et_dividerErrorColor` - The color of divider when has error.
 
