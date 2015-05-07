@@ -49,7 +49,7 @@ Attributes
 
 * `spn_arrowAnimClockwise` - If true, the arrow will rotate clockwise when showing popup menu.
 
-* `spn_dividerColor` - The color of divider.
+* `spn_dividerColor` - The color of divider. Accept Color value or ColorStateList resource.
 
 * `spn_dividerHeight` - The height of divider.
 
