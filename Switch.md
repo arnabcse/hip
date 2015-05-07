@@ -18,7 +18,7 @@ Attributes
 
 * `cbd_strokeSize` - The size of stroke.
 
-* `cbd_strokeColor` - The color of stroke.
+* `cbd_strokeColor` - The color of stroke. Accept Color value or ColorStateList resource.
 
 * `cbd_tickColor` - The color of tick mark.
 
@@ -44,7 +44,7 @@ Attributes
 
 * `rbd_strokeSize` - The size of stroke.
 
-* `rbd_strokeColor` - The color of stroke.
+* `rbd_strokeColor` - The color of stroke. Accept Color value or ColorStateList resource.
 
 * `rbd_animDuration` - The duration of animation when switch checked state.
 
@@ -60,11 +60,11 @@ Attributes
 
 * `sw_trackSize` - The stroke's width of track bar.
 
-* `sw_trackColor` - The color of track bar.
+* `sw_trackColor` - The color of track bar. Accept Color value or ColorStateList resource.
 
 * `sw_trackCap` - The cap setting of track bar. There're 3 types: **BUTT**, **ROUND** and **SQUARE**.
 
-* `sw_thumbColor` - The color of thumb.
+* `sw_thumbColor` - The color of thumb. Accept Color value or ColorStateList resource.
 
 * `sw_thumbRadius` - The radius of thumb.
 
