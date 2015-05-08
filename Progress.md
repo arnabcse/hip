@@ -98,4 +98,4 @@ LinearProgressDrawable
 
 * `lpd_outAnimDuration` - the duration of animation when progress stop running.
 
-* `lpd_verticalAlign` - the vertical align of progress with boundary . There're 3 values: **top**, **center** and   **bottom**.
+* `lpd_verticalAlign` - the vertical align of progress with boundary. There're 3 values: **top**, **center** and   **bottom**.
