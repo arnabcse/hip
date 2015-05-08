@@ -1,7 +1,21 @@
 Progress
 =====================
 
-  To show progress indicator, add the`com.rey.material.widget.ProgressView`to the layout.
+  To show progress indicator, add the`com.rey.material.widget.ProgressView` to the layout.
+
+Usage
+------------
+  Declare in XML:
+
+```xml
+    <com.rey.material.widget.ProgressView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:pv_autostart="true"
+        app:pv_circular="true"
+        app:pv_progressStyle="@style/Material.Drawable.CircularProgress"
+        app:pv_progressMode="indeterminate"/>
+```
 
 Attributes
 ------------
