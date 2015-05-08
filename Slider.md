@@ -1,10 +1,23 @@
 Slider
 =====================
 
-  `com.rey.material.widget.Slider`  
-
 ![](https://github.com/rey5137/Material/raw/master/image/slider_continuous.gif)
 ![](https://github.com/rey5137/Material/raw/master/image/slider_discrete.gif)
+
+Usage
+------------
+  Declare in XML:
+
+```xml
+    <com.rey.material.widget.Slider
+        style="@style/Material.Widget.Slider"  <!-- use Material.Widget.Slider.Discrete style for discrete mode -->
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:sl_minValue="0"
+        app:sl_maxValue="100"
+        app:sl_value="50"/>
+```
    
 
 Attributes
