@@ -1,10 +1,19 @@
 Spinner
 =====================
 
-  `com.rey.material.widget.Spinner`  
-
 ![](https://github.com/rey5137/Material/raw/master/image/spn.gif)
    
+Usage
+------------
+  Declare in XML:
+
+```xml
+    <com.rey.material.widget.Spinner
+        style="@style/Material.Widget.Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+```
 
 Attributes
 ------------
