@@ -34,7 +34,7 @@ Usage
 * `Material.Drawable.Ripple.Wave.Light`.
 
 
-  In case you want to use `style` for your own style, not for RippleDrawable , then you can pass RippleDrawable style for `rd_style` attribute:
+In case you want to use `style` for your own style, not for RippleDrawable , then you can pass RippleDrawable style for `rd_style` attribute:
 
 ```xml
     <com.rey.material.widget.Button
