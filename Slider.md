@@ -9,8 +9,9 @@ Usage
   Declare in XML:
 
 ```xml
+    <!-- use Material.Widget.Slider.Discrete style for discrete mode -->
     <com.rey.material.widget.Slider
-        style="@style/Material.Widget.Slider"  <!-- use Material.Widget.Slider.Discrete style for discrete mode -->
+        style="@style/Material.Widget.Slider"  
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
