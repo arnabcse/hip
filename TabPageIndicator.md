@@ -1,9 +1,18 @@
 TabPageIndicator
 =====================
 
-  `com.rey.material.widget.TabPageIndicator`  
-
 ![](https://github.com/rey5137/Material/raw/master/image/tpi.gif)
+
+Usage
+------------
+  Declare in XML:
+
+```xml
+    <com.rey.material.widget.TabPageIndicator
+        style="@style/Material.Widget.TabPageIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+```
 
 Attributes
 ------------
