@@ -1,9 +1,19 @@
 CheckBox
 =====================
-  `com.rey.material.widget.CheckBox`
 
 ![](https://github.com/rey5137/Material/raw/master/image/cb.gif)  
 
+Usage
+------------
+  Declare in XML:
+
+```xml
+    <com.rey.material.widget.CheckBox
+        style="@style/Material.Drawable.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check box"/>
+```
 
 Attributes
 ------------
@@ -26,10 +36,20 @@ Attributes
 
 RadioButton
 =====================
-  `com.rey.material.widget.RadioButton`
 
 ![](https://github.com/rey5137/Material/raw/master/image/rb.gif)  
 
+Usage
+------------
+  Declare in XML:
+
+```xml
+    <com.rey.material.widget.RadioButton
+        style="@style/Material.Drawable.RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio Button"/>
+```
 
 Attributes
 ------------
@@ -50,10 +70,22 @@ Attributes
 
 Switch
 =====================
-  `com.rey.material.widget.Switch`
 
 ![](https://github.com/rey5137/Material/raw/master/image/switch.gif)  
 
+
+Usage
+------------
+  Declare in XML:
+
+```xml
+    <com.rey.material.widget.Switch
+        style="@style/Material.Widget.Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:checked="false"/>
+```
 
 Attributes
 ------------
