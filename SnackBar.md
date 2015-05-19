@@ -67,7 +67,7 @@ Attributes
 
 * `sb_maxHeight` - The maximum height of SnackBar.
 
-* `sb_marginLeft` - The left margin of SnackBar with parent view.
+* `sb_marginStart` - The start margin of SnackBar with parent view.
 
 * `sb_marginBottom` - The bottom margin of SnackBar with parent view.
 
