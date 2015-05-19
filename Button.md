@@ -196,6 +196,8 @@ LineMorphingDrawable is a Drawable class that draw a series of line segments and
 
 * `lmd_clockwise` - If true, the animation will rotate clockwise when switch state.
 
+* `lmd_layoutDirection` - The layout direction of this Drawable. There are 3 types: **LTR**, **RTL** and **LOCALE**.
+
 ##State XML
   To define states for LineMorphingDrawable, you need to create a XML file with format:
 
