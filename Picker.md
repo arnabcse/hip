@@ -52,6 +52,8 @@ Attributes
 
 * `tp_pm` - The custom label for PM button.
 
+* `tp_leadingZero` - Indicate that should show hour value in leading zero format.
+
 DatePickerDialog
 =====================
 
