@@ -53,7 +53,7 @@ Attributes
 
 * `rd_rippleType` - The type of ripple. There are 2 types: **TOUCH** and **WAVE**.
 
-* `rd_delayClick` - If true, the view will wait for RippleDrawable finish animation before firing OnClickEvent.
+* `rd_delayClick` - There are 3 types: **NONE** (fire click event immediately), **UNTILRELEASE** (wait until Ripple's release animation start then fire event) and **AFTERRELEASE** (wait until Ripple's release animation end then fire event).
 
 * `rd_backgroundColor` - The background color of ripple's layer (used in **TOUCH** ripple tyle).
 
