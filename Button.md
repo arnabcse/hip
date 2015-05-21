@@ -96,15 +96,29 @@ Ripple Effect for Custom View
 
 If you want to add ripple effect for your custom view.
 
-1. Create a `RippleManager` object in your custom view.
+1. Add a `RippleManager` object in your custom view.
 
     ```java
-    RippleManager mRippleManager = new RippleManager();
+    RippleManager mRippleManager;
+    ```
+2. Add method `getRippleManager()` to retrieve the `RippleManager` object:
+
+   ```java
+    protected RippleManager getRippleManager(){
+        if(mRippleManager == null){
+            synchronized (RippleManager.class){
+                if(mRippleManager == null)
+                    mRippleManager = new RippleManager();
+            }
+        }
+
+        return mRippleManager;
+    }
     ```
 2. Call onCreate() method of `RippleManager` in view's constructor.
 
     ```java
-    mRippleManager.onCreate(this, context, attrs, defStyleAttr, defStyleRes);
+    getRippleManager().onCreate(this, context, attrs, defStyleAttr, defStyleRes);
     ```
 3. Override setBackgroundDrawable(), setOnClickEvent() and onTouchEvent().
 
@@ -120,18 +134,19 @@ If you want to add ripple effect for your custom view.
     
     @Override
     public void setOnClickListener(OnClickListener l) {
-        if(l == mRippleManager)
+        RippleManager rippleManager = getRippleManager();
+        if(l == rippleManager)
             super.setOnClickListener(l);
          else{
-            mRippleManager.setOnClickListener(l);
-            setOnClickListener(mRippleManager);
+            rippleManager.setOnClickListener(l);
+            setOnClickListener(rippleManager);
         }	
     }
 	
     @Override
     public boolean onTouchEvent(@NonNull MotionEvent event) {
         boolean result = super.onTouchEvent(event);
-        return  mRippleManager.onTouchEvent(event) || result;
+        return  getRippleManager().onTouchEvent(event) || result;
     }
     ```
 
