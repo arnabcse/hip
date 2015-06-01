@@ -25,6 +25,6 @@ Attributes
 
 * `tpi_indicatorHeight` - The height of indicator bar.
 
-* `tpi_mode` - The mode of TabPageIndicator. There're 2 modes: **SCROLL** and **FIXED**.
+* `tpi_mode` - The mode of TabPageIndicator. There're 2 modes: **scroll** and **fixed**.
 
 * `android:textAppearance` - The appearance settings of tab's text.
