@@ -48,16 +48,16 @@ Attributes
 
 * `sl_maxValue` - The max value of slider.
 
-* `sl_stepValue` - The step value of slider (used in **DISCRETE** mode).
+* `sl_stepValue` - The step value of slider (used in **discrete** mode).
 
 * `sl_value` - The current value of slider.
 
-* `sl_discreteMode` - If true, slider is in **DISCRETE** mode, false and slider is in **CONTINUOUS** mode
+* `sl_discreteMode` - If true, slider is in **discrete** mode, false and slider is in **continuous** mode
 
-* `sl_fontFamily` - The fontFamily of text (used in **DISCRETE** mode).
+* `sl_fontFamily` - The fontFamily of text (used in **discrete** mode).
 
-* `sl_textStyle` - The style of text (used in **DISCRETE** mode).
+* `sl_textStyle` - The style of text (used in **discrete** mode).
 
-* `sl_textSize` - The size of text (used in **DISCRETE** mode).
+* `sl_textSize` - The size of text (used in **discrete** mode).
 
-* `sl_textColor` - The color of text (used in **DISCRETE** mode).
+* `sl_textColor` - The color of text (used in **discrete** mode).
