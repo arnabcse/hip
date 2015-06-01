@@ -94,7 +94,7 @@ Attributes
 
 * `sw_trackColor` - The color of track bar. Accept Color value or ColorStateList resource.
 
-* `sw_trackCap` - The cap setting of track bar. There're 3 types: **BUTT**, **ROUND** and **SQUARE**.
+* `sw_trackCap` - The cap setting of track bar. There're 3 types: **butt**, **round** and **square**.
 
 * `sw_thumbColor` - The color of thumb. Accept Color value or ColorStateList resource.
 
