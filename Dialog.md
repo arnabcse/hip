@@ -32,9 +32,9 @@ You can chain methods to style Dialog:
 
 Attributes
 ------------
-* `android:layout_width` - the width of dialog. Can be dimension value or `match_parent` or `wrap_content` enum (`match_parent` doesn't make dialog full screen due to some padding of Material Design Dialog's spec).
+* `android:layout_width` - the width of dialog's layout params. Can be dimension value or `match_parent` or `wrap_content` enum (`match_parent` doesn't make dialog full screen due to some padding of Material Design Dialog's spec).
 
-* `android:layout_height` - the heightof dialog. Can be dimension value or `match_parent` or `wrap_content` enum (`match_parent` doesn't make dialog full screen due to some padding of Material Design Dialog's spec).
+* `android:layout_height` - the height of dialog's layout params. Can be dimension value or `match_parent` or `wrap_content` enum (`match_parent` doesn't make dialog full screen due to some padding of Material Design Dialog's spec).
 
 * `di_dimAmount` - The amount of dim applied to background outside dialog.
 
@@ -42,7 +42,13 @@ Attributes
 
 * `di_elevation` - The elevation of dialog.
 
-* `di_cornerRadius` - The corner's radius of background.
+* `di_layoutDirection` - The layout direction of dialog. There are 3 types: **ltr*, **rtl** and **locale**.
+
+* `di_maxWidth` - the maximum width of dialog.
+
+* `di_maxWidth` - the maximum width of dialog.
+
+* `di_maxHeight` - the maximum height of dialog.
 
 * `di_titleTextAppearance` - The appearance setting of title text.
 
