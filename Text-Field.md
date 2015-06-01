@@ -29,9 +29,9 @@ Attributes
 
 * `et_labelOutAnim` - The animation when label is hided.
 
-* `et_supportMode` - The mode of support text that show below the input view. There are 4 modes: **NONE**, **HELPER**, **HELPERWITHERROR** and **CHARCOUNTER**.
+* `et_supportMode` - The mode of support text that show below the input view. There are 4 modes: **none**, **helper**, **helperWithError** and **charCounter**.
 
-* `et_supportMaxChars` - The maximum character for input view (used in **CHARCOUNTER** mode). 0 mean it will only show the char counter.
+* `et_supportMaxChars` - The maximum character for input view (used in **charCounter** mode). 0 mean it will only show the char counter.
 
 * `et_helper` - The helper text.
 
@@ -67,4 +67,4 @@ Attributes
 
 * `et_dividerCompoundPadding` - If true, divider should include the padding of compound drawables.
 
-* `et_autoCompleteMode` - Indicate which input view is wrapped. There are 3 modes: **NONE** (`android.widget.EditText`), **SINGLE** (`android.widget.AutoCompleteEditText`) and **MULTI** (`android.widget.MultiAutoCompleteTextView`)
+* `et_autoCompleteMode` - Indicate which input view is wrapped. There are 3 modes: **none** (`android.widget.EditText`), **single** (`android.widget.AutoCompleteEditText`) and **multi** (`android.widget.MultiAutoCompleteTextView`)
