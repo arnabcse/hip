@@ -42,7 +42,7 @@ Attributes
 
 * `di_elevation` - The elevation of dialog.
 
-* `di_layoutDirection` - The layout direction of dialog. There are 3 types: **ltr*, **rtl** and **locale**.
+* `di_layoutDirection` - The layout direction of dialog. There are 3 types: **ltr**, **rtl** and **locale**.
 
 * `di_maxWidth` - the maximum width of dialog.
 
