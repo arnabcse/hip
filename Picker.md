@@ -34,7 +34,7 @@ Attributes
 
 * `tp_outInterpolator` - The interpolator of out animation.
 
-* `tp_mode` - The current select mode of time picker. There're 2 modes: **HOUR** and **MINUTE**.
+* `tp_mode` - The current select mode of time picker. There're 2 modes: **hour** and **minute**.
 
 * `tp_24Hour` - Indicate should show hour in 24 hours format or not.
 
