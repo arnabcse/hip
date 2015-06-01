@@ -51,15 +51,15 @@ In case you want to use `style` for your own style, not for RippleDrawable , the
 Attributes
 --------------------------
 
-* `rd_rippleType` - The type of ripple. There are 2 types: **TOUCH** and **WAVE**.
+* `rd_rippleType` - The type of ripple. There are 2 types: **touch** and **wave**.
 
-* `rd_delayClick` - There are 3 types: **NONE** (fire click event immediately), **UNTILRELEASE** (wait until Ripple's release animation start then fire event) and **AFTERRELEASE** (wait until Ripple's release animation end then fire event).
+* `rd_delayClick` - There are 3 types: **none** (fire click event immediately), **untilRelease** (wait until Ripple's release animation start then fire event) and **afterRelease** (wait until Ripple's release animation end then fire event).
 
-* `rd_backgroundColor` - The background color of ripple's layer (used in **TOUCH** ripple tyle).
+* `rd_backgroundColor` - The background color of ripple's layer (used in **touch** ripple tyle).
 
 * `rd_backgroundAnimDuration` - The animation's duration of background color.
 
-* `rd_maxRippleRadius` - The maximum ripple radius (used in **TOUCH** ripple tyle). It can be dimension value or `match_view` enum(ripple effect will cover all view).
+* `rd_maxRippleRadius` - The maximum ripple radius (used in **touch** ripple tyle). It can be dimension value or `match_view` enum(ripple effect will cover all view).
 
 * `rd_rippleColor` - The color of ripple.
 
@@ -69,7 +69,7 @@ Attributes
 
 * `rd_outInterpolator` - The interpolator for OUT animation.
 
-* `rd_maskType` - The mask's type of ripple. The mask is used to restrict ripple effect only show in a part of view. There are 2 type of mask: **RECTANGLE** and **OVAL**.
+* `rd_maskType` - The mask's type of ripple. The mask is used to restrict ripple effect only show in a part of view. There are 2 type of mask: **rectangle** and **oval**.
 
 * `rd_cornerRadius` - The corner's radius of mask.
 
@@ -211,7 +211,7 @@ LineMorphingDrawable is a Drawable class that draw a series of line segments and
 
 * `lmd_clockwise` - If true, the animation will rotate clockwise when switch state.
 
-* `lmd_layoutDirection` - The layout direction of this Drawable. There are 3 types: **LTR**, **RTL** and **LOCALE**.
+* `lmd_layoutDirection` - The layout direction of this Drawable. There are 3 types: **ltr**, **rtl** and **locale**.
 
 ##State XML
   To define states for LineMorphingDrawable, you need to create a XML file with format:
