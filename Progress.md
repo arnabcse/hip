@@ -20,22 +20,22 @@ Usage
 Attributes
 ------------
 
-* `pv_progressMode` - The mode of progress indicator. There are 4 modes: **INDETERMINATE**, **DETERMINATE**, **QUERY** and **BUFFER** (Circular progress has only 2 modes: **INDETERMINATE** and **DETERMINATE**).
+* `pv_progressMode` - The mode of progress indicator. There are 4 modes: **indeterminate**, **determinate**, **query** and **buffer** (Circular progress has only 2 modes: **indeterminate** and **determinate**).
 
 * `pv_circular` - Set true to show circular progress, false to show linear progress.
 
-* `pv_autostart` - If true, the progress will auto start when it becomes visible and stop when it's hided (only work in **INDETERMINATE** mode).
+* `pv_autostart` - If true, the progress will auto start when it becomes visible and stop when it's hided.
 
 * `pv_progress` - The progress value in [0..1]
 
-* `pv_secondaryProgress` - The secondary progress value in [0..1] (use in **BUFFER** mode).
+* `pv_secondaryProgress` - The secondary progress value in [0..1] (use in **buffer** mode).
 
 * `pv_progressStyle` - The style of progress drawable. Depend on "pv_circular" attribute, it'll create a CircularProgressDrawable or LinearProgressDrawable.
 
 
 CircularProgressDrawable
 --------------------------
-  CircularProgressDrawable has support only 2 modes: **INDETERMINATE** and **DETERMINATE**.
+  CircularProgressDrawable has support only 2 modes: **indeterminate** and **determinate**.
 
 ![](https://github.com/rey5137/Material/raw/master/image/progress_circular_indeterminate.gif)  ![](https://github.com/rey5137/Material/raw/master/image/progress_circular_determinate.gif)
 
@@ -55,7 +55,7 @@ CircularProgressDrawable
 
 * `cpd_strokeSecondaryColor` - The stroke's color of secondary progress.
 
-* `cpd_strokeColors` - The array of colors will be used as stroke's color (for **INDETERMINATE** mode).
+* `cpd_strokeColors` - The array of colors will be used as stroke's color (for **indeterminate** mode).
 
 * `cpd_reverse` - If true, progress will rotate counter-clockwise.
 
@@ -96,7 +96,7 @@ LinearProgressDrawable
 
 * `lpd_strokeSecondaryColor` - The stroke's color of secondary progress.
 
-* `lpd_strokeColors` - The list of stroke's color (for **INDETERMINATE** mode).
+* `lpd_strokeColors` - The list of stroke's color (for **indeterminate** mode).
 
 * `lpd_reverse` - If true, progress will run from right to left.
 
