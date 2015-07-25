@@ -61,3 +61,5 @@ Attributes
 * `sl_textSize` - The size of text (used in **discrete** mode).
 
 * `sl_textColor` - The color of text (used in **discrete** mode).
+
+* `sl_alwaysFillThumb` - Indicate that should always fill thumb at min value or not.
