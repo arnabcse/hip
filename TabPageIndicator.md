@@ -25,6 +25,8 @@ Attributes
 
 * `tpi_indicatorHeight` - The height of indicator bar.
 
+* `tpi_tabSingleLine` - Indicate that should show text in single line or not.
+
 * `tpi_mode` - The mode of TabPageIndicator. There're 2 modes: **scroll** and **fixed**.
 
 * `android:textAppearance` - The appearance settings of tab's text.
