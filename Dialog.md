@@ -46,8 +46,6 @@ Attributes
 
 * `di_maxWidth` - the maximum width of dialog.
 
-* `di_maxWidth` - the maximum width of dialog.
-
 * `di_maxHeight` - the maximum height of dialog.
 
 * `di_titleTextAppearance` - The appearance setting of title text.
