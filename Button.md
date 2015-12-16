@@ -205,9 +205,9 @@ LineMorphingDrawable is a Drawable class that draw a series of line segments and
 
 * `lmd_strokeColor` - The color of stroke.
 
-* `lmd_strokeCap` - The cap setting of stroke.
+* `lmd_strokeCap` - The cap setting of stroke. Can be **butt**, **round** or **square** enum.
 
-* `lmd_strokeJoin` - The join setting of stroke.
+* `lmd_strokeJoin` - The join setting of stroke. Can be **miter**, **round** or **bevel** enum.
 
 * `lmd_clockwise` - If true, the animation will rotate clockwise when switch state.
 
