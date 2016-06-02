@@ -38,6 +38,8 @@ Attributes
 
 * `sl_thumbFocusRadius` - The radius of thumb when focused.
 
+* `sl_thumbTouchRadius` -  The radius of touch region. if not set will use `sl_thumbRadius`.
+
 * `sl_travelAnimDuration` - The max time the thumb takes to move from left to right side.
 
 * `sl_transformAnimDuration` - The duration of animation when thumb switch to focused state.
