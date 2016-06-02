@@ -55,6 +55,8 @@ Attributes
 
 * `rd_delayClick` - There are 3 types: **none** (fire click event immediately), **untilRelease** (wait until Ripple's release animation start then fire event) and **afterRelease** (wait until Ripple's release animation end then fire event).
 
+* `rd_delayRipple` - Delay starting ripple animation. Default is 0.
+
 * `rd_backgroundColor` - The background color of ripple's layer (used in **touch** ripple tyle).
 
 * `rd_backgroundAnimDuration` - The animation's duration of background color.
