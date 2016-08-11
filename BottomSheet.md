@@ -12,9 +12,9 @@ Usage
   Initialize in code:
 
 ```java
-    BottomSheetDialogmDialog = new BottomSheetDialog(context);
+    BottomSheetDialog mDialog = new BottomSheetDialog(context);
 
-    BottomSheetDialogmDialog = new BottomSheetDialog(context, styleId);
+    BottomSheetDialog mDialog = new BottomSheetDialog(context, styleId);
 ```
 
 You can chain methods to style BottomSheetDialog:
