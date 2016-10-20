@@ -90,6 +90,9 @@ Usage
 Attributes
 ------------
 
+*默认选中状态的sw_trackColor与sw_thumbColor为colorAccent
+*单纯更改sw_trackColor与sw_thumbColor，其颜色都被改变，不受状态的影响
+
 * `sw_trackSize` - The stroke's width of track bar.
 
 * `sw_trackColor` - The color of track bar. Accept Color value or ColorStateList resource.
